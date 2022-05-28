@@ -18,8 +18,12 @@ public class Author {
     public String getSurname() {
         return surname;
     }
-
     public void setSurname(String surname) {
         this.surname = surname;
+
+    }
+    @Override
+    public String toString (){
+        return "Имя: " + name + " Фамилия: " + surname;
     }
 }
